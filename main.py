@@ -75,7 +75,7 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Main
 def main():
-    BOT_TOKEN = "SIZNING_BOT_TOKENINGIZNI_QO‘YING"  # <-- Bu yerga tokeningizni yozing
+    BOT_TOKEN = "YOUR_REAL_BOT_TOKEN_HERE"  # <-- BotFather bergan tokenni shu yerga qo‘ying
     app = Application.builder().token(BOT_TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
